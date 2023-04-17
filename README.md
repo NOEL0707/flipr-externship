@@ -2,10 +2,6 @@
 
 
 ## important steps before installing or creating docker image
-
-### ` Files Folder`
-Create a folder named 'files' and in  that folder create two other folders named `generatedOffers` and `roundUpdates`.
-
 ### `.env file`
 Create a file named .env in root folder and define variables accordingly as mentioned in the installation steps.
 MYSQL_PASSWORD=<string:Password of the database created in local>

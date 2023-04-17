@@ -7,8 +7,8 @@ services:
     command: --default-authentication-plugin=mysql_native_password --lower_case_table_names=1
     environment:
       - MYSQL_DATABASE=notesApp
-      - MYSQL_PASSWORD=MySqlPassword@123
-      - MYSQL_ROOT_PASSWORD=MySqlPassword@123
+      - MYSQL_PASSWORD=password@123
+      - MYSQL_ROOT_PASSWORD=password@123
       - MYSQL_HOSTNAME="mysqldb"
     ports:
       - 4545:3306
