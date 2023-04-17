@@ -73,7 +73,7 @@ router.post("/edit/:noteId", async(req, res) => {
             content: req.body.content
         };
         const [rows,fields]=await query(`UPDATE notes SET title = "${note.title}" , content="${note.content}",updated_at = NOW() WHERE id=${noteId}`);
-        res.status(200).send({"result":` Edited Note with ID ${noteId}`});
+        res.status(200).send({"result":` Edited Note with ID ${noteId} if present`});
     } catch (error) {
         res.status(500).send({"result":"Error While Editing"});
         throw error;
