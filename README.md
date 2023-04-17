@@ -55,7 +55,7 @@ This command will remove the spawned containers.
     else {"result":"Error While Creating"}
 
 ### `localhost:4444/api/notes/:noteid`(GET Request)
-:note id is the id of note you want
+    :note id is the id of note you want
     Request Body Format: -
     Response:
     if succeeds {
